@@ -20,4 +20,16 @@ database.close()
 with open('filename') as fileobject:
     read_file = fileobject.read()
 
+# Reading a file
+file = open('filename')
+textfrom_file = file.read()
+print(textfrom_file)
+file.close()
+
+# Writing / Appending to a file
+file = open('filename')
+file.write('word\n')
+file.close()
+
+
 
