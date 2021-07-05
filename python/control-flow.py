@@ -17,3 +17,12 @@ if 2 < 10:
 else:
     print('2 is apparently not less than 10')
 
+# If you want to handle errors you can use the try, except statement
+# There are errors you can specify but this is a catch all
+try:
+    do_something()
+except:
+    print('Error, couldnt do the thing you wanted for some reason')
+
+
+
